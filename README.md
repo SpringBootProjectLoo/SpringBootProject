@@ -20,7 +20,7 @@ Spring Boot Project by https://start.spring.io/
   application.properties:
     We must define the server.port, spring.application.name, eureka.client.serviceUrl.defaultZone and spring.cloud.gateway.discovery.locator.enabled to register the microservice with eureka discovery server
   Main class:
-    Must add the anotation @SpringBootApplication to make this a pring boot application.
+    Must add the anotation @SpringBootApplication to make this a pring boot application and @EnableEurekaServer to enable this app as an eureka discovery server.
   Dependencies:
     <dependency>
 			<groupId>org.springframework.cloud</groupId>
